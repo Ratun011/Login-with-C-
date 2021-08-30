@@ -25,7 +25,7 @@ wrong: //jump back from line 32
                 cout<<"\t Hello " <<user <<endl;
                 break;
             }
-            //system("cls");
+            system("cls");
             cout<<"\n Wrong User Name or Password input again! \n\n";
             passwd = "";
             count += 1;
@@ -33,7 +33,7 @@ wrong: //jump back from line 32
             {
                 cout<<"You have entered wrong 3 times system will shutdown";
                 cout<<" in 3 seconds good bye!";
-                //system("shutdown -s -t 03");//this will shutdown your PC;
+                system("shutdown -s -t 03");//this will shutdown your PC;
                 return 0;
             }
             goto wrong;
